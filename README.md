@@ -2,6 +2,8 @@
 [forumurl]: https://forum.linuxserver.io
 [ircurl]: https://www.linuxserver.io/irc/
 [podcasturl]: https://www.linuxserver.io/podcast/
+[appurl]: https://github.com/mescon/Muximux
+[hub]: https://hub.docker.com/r/lsioarmhf/muximux-aarch64/
 
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
 
@@ -12,12 +14,10 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 
 # lsioarmhf/muximux-aarch64
 [![](https://images.microbadger.com/badges/version/lsioarmhf/muximux-aarch64.svg)](https://microbadger.com/images/lsioarmhf/muximux-aarch64 "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/lsioarmhf/muximux-aarch64.svg)](http://microbadger.com/images/lsioarmhf/muximux-aarch64 "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/muximux-aarch64.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/muximux-aarch64.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-arm64/lsioarm64-muximux)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-arm64/job/lsioarm64-muximux/)
-[hub]: https://hub.docker.com/r/lsioarmhf/muximux-aarch64/
 
 This is a lightweight portal to view & manage your HTPC apps without having to run anything more than a PHP enabled webserver. With Muximux you don't need to keep multiple tabs open, or bookmark the URL to all of your apps. [Muximux](https://github.com/mescon/Muximux).
 
-[![muximux](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/muximux-icon.png)][muximuxurl]
-[muximuxurl]: https://github.com/mescon/Muximux
+[![muximux](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/muximux-icon.png)][appurl]
 
 ## Usage
 
@@ -61,7 +61,7 @@ In this instance `PUID=1001` and `PGID=1001`. To find yours use `id user` as bel
 `IMPORTANT... THIS IS THE ARM64 VERSION`
 
 Find the web interface at `<your-ip>:80` , set apps you wish to use with muximux via the webui.
-More info:- [Muximux][muximuxurl]
+More info:- [Muximux][appurl]
 
 
 ## Info

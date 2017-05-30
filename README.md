@@ -79,4 +79,5 @@ More info:- [Muximux][appurl]
 
 ## Versions
 
++ **30.05.17:** Rebase to alpine 3.6.
 + **12.12.16:** Initial release.
